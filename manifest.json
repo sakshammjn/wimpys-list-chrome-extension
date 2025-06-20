@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Wimpy's List",
+  "version": "1.0",
+  "description": "A cartoonish and simple to-do list Chrome extension.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "permissions": ["storage"],
+  "web_accessible_resources": [
+    {
+      "resources": ["add.mp3", "delete.mp3","background.webp", "icon.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
